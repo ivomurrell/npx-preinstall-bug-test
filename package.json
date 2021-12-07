@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "barebones package with preinstall script",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "preinstall": "echo hello",
     "test": "echo \"Error: no test specified\" && exit 1"
